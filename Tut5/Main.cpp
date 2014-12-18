@@ -60,11 +60,11 @@ int main(int argc, char **argv) {
 	model = glm::mat4(1.0f);
 	
 	//scale the model by 2.0 for each axis
-	model = glm::scale(model, glm::vec3(2.0f, 2.0f, 2.0f));
+	//model = glm::scale(model, glm::vec3(2.0f, 2.0f, 2.0f));
 
 	//rotate 90 degrees in counter-clockwise direction about z-axis
 	//rotation in clockwise direction will require negative angles
-	//model = glm::rotate(model, 90.0f, glm::vec3(0, 0, 1));
+	model = glm::rotate(model, 90.0f, glm::vec3(0, 0, 1));
 
 	//translate the model 2 units to the right along x-axis
 	//model = glm::translate(model, glm::vec3(2, 0, 0));
