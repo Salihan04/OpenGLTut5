@@ -64,10 +64,10 @@ int main(int argc, char **argv) {
 
 	//rotate 90 degrees in counter-clockwise direction about z-axis
 	//rotation in clockwise direction will require negative angles
-	model = glm::rotate(model, 90.0f, glm::vec3(0, 0, 1));
+	//model = glm::rotate(model, 90.0f, glm::vec3(0, 0, 1));
 
 	//translate the model 2 units to the right along x-axis
-	//model = glm::translate(model, glm::vec3(2, 0, 0));
+	model = glm::translate(model, glm::vec3(2, 0, 0));
 	
 	//our ModelViewProjection : multiplication of our 3 matrices
 	//remember, matrix multiplication is the other way around
