@@ -2,6 +2,10 @@ OpenGLTut5
 ==========
 
 Adding transformation to triangle created in OpenGLTut4
+<br>Transformation includes:
+* Scaling
+* Rotation
+* Translation
 
 Implemented using C++ in Visual Studio 2013 environment. Libraries installed using Nuget Package Manager ("Install-Package nupengl.core" for freeglut and glew, and "Install-Package glm" for glm). 
 <br><b>Note:</b> .gitignore is necessary for version control for Visual Studio 2013.
